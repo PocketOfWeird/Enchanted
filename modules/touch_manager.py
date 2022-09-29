@@ -8,6 +8,6 @@ def touch_manager(input: int) -> str:
     index = randrange(0,len(files))
     filename = files[index]
     player = play_audio(filename)
-    player.wait()
+    #player.wait()
 
     return filename
