@@ -1,3 +1,6 @@
 import subprocess
+from pygame import mixer
 
-play_audio = lambda filename: subprocess.Popen(["cvlc", filename])
+def play_audio(filename): 
+    sound = mixer.Sound(filename)
+    sound.play()

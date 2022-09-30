@@ -11,4 +11,4 @@ def start_touch_sensor_loop(touch_manager) -> None:
         for i in range(12):
             if mpr121[i].value:
                 touch_manager(i)
-        time.sleep(0.25)
+        time.sleep(0.10)
