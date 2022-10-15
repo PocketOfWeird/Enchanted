@@ -1,0 +1,6 @@
+Instrument
+84
+Sample numebr
+1
+Parameter number
+4
